@@ -10,7 +10,7 @@
         "projectUniqueName": "C:\\Users\\joao.v.araujo\\source\\repos\\Atend_Psicologia\\Atend_Psicologia\\Atend_Psicologia.csproj",
         "projectName": "Atend_Psicologia",
         "projectPath": "C:\\Users\\joao.v.araujo\\source\\repos\\Atend_Psicologia\\Atend_Psicologia\\Atend_Psicologia.csproj",
-        "packagesPath": "C:\\Users\\joao.v.araujo\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\joao.v.araujo\\source\\repos\\Atend_Psicologia\\Atend_Psicologia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
@@ -18,7 +18,7 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\joao.v.araujo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -48,6 +48,10 @@
               "version": "[6.4.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.4, )"
             },

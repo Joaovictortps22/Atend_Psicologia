@@ -27,9 +27,9 @@ namespace Atend_Psicologia
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string stringConexao = @"Data Source=ABHNTBL6800396\SQLEXPRESS01;Initial Catalog=Atend_Psicologia;Integrated Security=True;MultipleActiveResultSets=True";
+            string stringConexao = @"Data Source=ABHNTBL6800396;Initial Catalog=Atend_Psicologia_Admin;Integrated Security=True;MultipleActiveResultSets=True";
 
-            services.AddDbContext<contexto>(options => options.UseSqlServer(stringConexao));
+            services.AddDbContext<contexto>(options => options.UseInMemoryDatabase("buceta"));
 
             services.AddControllers();
         }
