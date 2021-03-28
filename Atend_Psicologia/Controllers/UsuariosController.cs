@@ -9,7 +9,7 @@ using Atend_Psicologia.Models;
 
 namespace Atend_Psicologia.Controllers
 {
-    [Route("api/usuario")]
+    [Route("api/autenticate")]
     [ApiController]
     public class UsuariosController : ControllerBase
     {
@@ -21,14 +21,14 @@ namespace Atend_Psicologia.Controllers
         }
 
         // GET: api/Usuarios
-        [HttpGet("/Listar")]
+        [HttpGet("ListarUsuarios")]
         public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuario()
         {
             return await _context.Usuario.ToListAsync();
         }
 
         // GET: api/Usuarios/5
-        [HttpGet("/Listar/{id}")]
+        [HttpGet("ListarUsuario/{id}")]
         public async Task<ActionResult<Usuario>> GetUsuario(int id)
         {
             var usuario = await _context.Usuario.FindAsync(id);
@@ -44,7 +44,7 @@ namespace Atend_Psicologia.Controllers
         // PUT: api/Usuarios/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("/Atualizar/{id}")]
+        [HttpPut("AtualizarUsuario/{id}")]
         public async Task<IActionResult> PutUsuario(int id, Usuario usuario)
         {
             if (id != usuario.id)
@@ -76,7 +76,7 @@ namespace Atend_Psicologia.Controllers
         // POST: api/Usuarios
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPost("/Cadastrar")]
+        [HttpPost("CadastrarUsuario")]
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
         {
             _context.Usuario.Add(usuario);
@@ -86,7 +86,7 @@ namespace Atend_Psicologia.Controllers
         }
 
         // DELETE: api/Usuarios/5
-        [HttpDelete("/Deletar/{id}")]
+        [HttpDelete("DeletarUsuario/{id}")]
         public async Task<ActionResult<Usuario>> DeleteUsuario(int id)
         {
             var usuario = await _context.Usuario.FindAsync(id);
