@@ -159,7 +159,7 @@ C:\Users\joao.v.araujo\source\repos\Atend_Psicologia\Atend_Psicologia\bin\Debug\
 C:\Users\joao.v.araujo\source\repos\Atend_Psicologia\Atend_Psicologia\obj\Debug\netcoreapp3.1\Atend_Psicologia.dll
 C:\Users\joao.v.araujo\source\repos\Atend_Psicologia\Atend_Psicologia\obj\Debug\netcoreapp3.1\Atend_Psicologia.pdb
 C:\Users\joao.v.araujo\source\repos\Atend_Psicologia\Atend_Psicologia\obj\Debug\netcoreapp3.1\Atend_Psicologia.genruntimeconfig.cache
-C:\Users\joao.v.araujo\source\repos\Atend_Psicologia\Atend_Psicologia\obj\Debug\netcoreapp3.1\Atend_Psicologia.csprojAssemblyReference.cache
 C:\Users\joao.v.araujo\source\repos\Atend_Psicologia\Atend_Psicologia\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\joao.v.araujo\source\repos\Atend_Psicologia\Atend_Psicologia\obj\Debug\netcoreapp3.1\Atend_Psicologia.csproj.CoreCompileInputs.cache
 C:\Users\joao.v.araujo\source\repos\Atend_Psicologia\Atend_Psicologia\obj\Debug\netcoreapp3.1\Atend_Psicologia.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\joao.v.araujo\source\repos\Atend_Psicologia\Atend_Psicologia\obj\Debug\netcoreapp3.1\Atend_Psicologia.csprojAssemblyReference.cache

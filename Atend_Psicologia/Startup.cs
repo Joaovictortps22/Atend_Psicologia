@@ -29,7 +29,7 @@ namespace Atend_Psicologia
         {
             string stringConexao = @"Data Source=ABHNTBL6800396;Initial Catalog=Atend_Psicologia_Admin;Integrated Security=True;MultipleActiveResultSets=True";
 
-            services.AddDbContext<contexto>(options => options.UseInMemoryDatabase("buceta"));
+            services.AddDbContext<contexto>(options => options.UseInMemoryDatabase("teste"));
 
             services.AddControllers();
         }
